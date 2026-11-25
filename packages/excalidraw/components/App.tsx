@@ -8867,7 +8867,7 @@ class App extends React.Component<AppProps, AppState> {
       });
     } else {
       element = newElement({
-        type: elementType === "diamond" ? "ellipse" : elementType,
+        type: elementType,
         ...baseElementAttributes,
       });
     }
